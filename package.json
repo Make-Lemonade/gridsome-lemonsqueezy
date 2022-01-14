@@ -1,5 +1,5 @@
 {
-    "name": "gridsome-lemonsqueezy",
+    "name": "@lemonsqueezy/gridsome-lemonsqueezy",
     "description": "Lemon Squeezy plugin for Gridsome",
     "version": "0.1.0",
     "license": "MIT",
@@ -13,5 +13,8 @@
     },
     "dependencies": {
         "axios": "^0.24.0"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }

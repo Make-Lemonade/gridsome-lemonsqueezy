@@ -1,11 +1,11 @@
-# gridsome-lemonsqueezy
+# @lemonsqueezy/gridsome-lemonsqueezy
 
 > Lemon Squeezy plugin for Gridsome.
 
 ## Install
 
-- `npm install gridsome-lemonsqueezy`
-- `yarn add gridsome-lemonsqueezy`
+- `npm install @lemonsqueezy/gridsome-lemonsqueezy`
+- `yarn add @lemonsqueezy/gridsome-lemonsqueezy`
 
 ## Usage
 
@@ -13,7 +13,7 @@
 module.exports = {
     plugins: [
         {
-            use: 'gridsome-lemonsqueezy',
+            use: '@lemonsqueezy/gridsome-lemonsqueezy',
             options: {
                 apiKey: process.env.LSQ_API_KEY,
                 storeId: process.env.LSQ_API_STORE_ID,
